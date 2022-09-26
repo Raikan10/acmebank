@@ -21,4 +21,13 @@ public class Account {
     private Integer id;
     private String currency;
     private BigDecimal amount;
+
+    public Account(Integer id, String currency, BigDecimal amount) {
+        this.id = id;
+        this.currency = currency;
+        this.amount = amount;
+    }
+
+    public Account() {
+    }
 }
