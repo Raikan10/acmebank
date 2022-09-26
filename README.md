@@ -21,9 +21,6 @@ Request Body:
 }
 ```
 
-## Assumptions
- - Single currency account
-
 ## Additional Implementation
  - Transaction table
  - DB locking when performing a transfer
@@ -31,4 +28,4 @@ Request Body:
  - Better code organisation with inheritance
  - Some more validation
  - Dockerization
- - 
+
