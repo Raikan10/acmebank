@@ -5,12 +5,12 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.math.BigDecimal;
-
-@Builder
 @EqualsAndHashCode
 @Getter
-public class AccountBalanceResponse {
+@Builder
+public class TransferResponse {
     private final boolean success;
-    private final BigDecimal balance;
+    private final String message;
     private final String currency;
+    private final BigDecimal balance;
 }

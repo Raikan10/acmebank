@@ -1,16 +1,24 @@
 package com.acmebank.accountmanager.model;
 
 import java.math.BigDecimal;
+
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
-@EqualsAndHashCode
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
 @Getter
+@Setter
+@Table
 @Builder
 public class Account {
-    @NonNull private final Integer id;
-    @NonNull private final String currency;
-    @NonNull private final BigDecimal amount;
+    @Id
+    private Integer id;
+    private String currency;
+    private BigDecimal amount;
 }
