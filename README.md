@@ -30,3 +30,5 @@ Request Body:
  - User Authentication
  - Better code organisation with inheritance
  - Some more validation
+ - Dockerization
+ - 
