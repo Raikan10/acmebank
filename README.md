@@ -1,2 +1,0 @@
-# acmebank
-A coding exercise
